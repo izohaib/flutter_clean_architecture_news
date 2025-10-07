@@ -1,11 +1,11 @@
-import 'package:clean_architecture/main.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-
 import '../../domain/entities/ArticleEntity.dart';
 import '../../domain/usecases/GetTopHeadlines.dart';
 import '../HomeScreen/Bloc/BlocEvents.dart';
 import '../HomeScreen/Bloc/HomeBloc.dart';
+import '../HomeScreen/HomeScreen.dart';
+import '../details_screen/NewsDetailScreen.dart';
 
 class AppRouter {
   final GetTopHeadlines getTopHeadlines;
